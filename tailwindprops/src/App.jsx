@@ -4,8 +4,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  let aboutOm = "Welcome to my page. Here I am Practicing React Props"
-  let aboutPooja = "Welcome to my page. Here I am Practicing React Props with Tailwind"
+  let aboutOm = `"Welcome to my page. Here I am Practicing React Props."`
+  let aboutPooja = `"Welcome to my page. Here I am Practicing React Props with Tailwind."`
 
   return (
     <>
