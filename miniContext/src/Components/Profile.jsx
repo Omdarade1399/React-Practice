@@ -6,7 +6,7 @@ function Profile() {
     const {user} = useContext(UserContext)
 
   if (!user) return <div>Please Login!!</div>
-  return <div>Welcome {user.username}</div>
+  return <div>Welcome {user.username} <br /> Your Password {user.password} is set in motion</div> 
 }
 
 export default Profile
